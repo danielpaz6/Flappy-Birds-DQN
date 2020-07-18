@@ -88,7 +88,7 @@
 	"convertedBy": null,
 	"weightsManifest": [
 		{
-			"paths": ["https://github.com/danielpaz6/flappy-birds-dqn/blob/master/my-model-e3.weights.bin?raw=true"],
+			"paths": ["my-model-e3.weights.bin?raw=true"],
 			"weights": [
 				{ "name": "dense_Dense1/kernel", "shape": [4, 64], "dtype": "float32" },
 				{ "name": "dense_Dense1/bias", "shape": [64], "dtype": "float32" },
