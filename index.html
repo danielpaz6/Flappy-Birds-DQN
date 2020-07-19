@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-	<title>Getting Started</title>
+	<title>Deep Q Learning Flappy Birds</title>
 	<link href="style.css" rel="stylesheet" />
   </head>
   <body>
@@ -12,7 +12,15 @@
         </div>
         <div id="right-side">
 			<div class="content-container">
-				<pre class="logs-container"><div id="logs"></div><div id="el"></div></pre>
+				<!--<pre class="logs-container"><div id="logs"></div><div id="el"></div></pre>-->
+				<div class="left-container">
+					<div class="center">
+						<button id="speedUp">Speed Up</button>
+						<button id="speedDown">Slow Down</button>
+					</div>
+					<div class="hr"></div>
+					<pre class="logs-container"><div id="logs"></div><div id="el"></div></pre>
+				</div>
 				<div class="details">
 					<span>Speed Y:</span> <span id="p1"></span><br />
 					<span>Tube X:</span> <span id="p2"></span><br />
@@ -21,8 +29,8 @@
 
 					<span>Reward:</span> <span id="p5"></span><br />
 					<span>Is Done:</span> <span id="p6"></span><br /><br />
-					<button id="speedUp">Speed Up</button>
-					<button id="speedDown">Slow Down</button>
+					<!--<button id="speedUp">Speed Up</button>
+					<button id="speedDown">Slow Down</button>-->
 				</div>
 			</div>
 
