@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+	<title>Getting Started</title>
+	<link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+	<h1>Deep Q Learning Flappy Birds</h1>
+	<div class="container">
+        <div id="left-side">
+            <canvas id="gameCanvas" />
+        </div>
+        <div id="right-side">
+			<div class="content-container">
+				<pre class="logs-container"><div id="logs"></div><div id="el"></div></pre>
+				<div class="details">
+					<span>Speed Y:</span> <span id="p1"></span><br />
+					<span>Tube X:</span> <span id="p2"></span><br />
+					<span>Diff Y:</span> <span id="p3"></span><br />
+					<span>Bird Y:</span> <span id="p4"></span><br /><br />
+
+					<span>Reward:</span> <span id="p5"></span><br />
+					<span>Is Done:</span> <span id="p6"></span><br /><br />
+					<button id="speedUp">Speed Up</button>
+					<button id="speedDown">Slow Down</button>
+				</div>
+			</div>
+
+            <div id="chart"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
