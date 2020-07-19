@@ -43,8 +43,8 @@ export let gameSpeed = 50;
 export async function startTraining() {
 	var env = new Environment();
 
-	var m1 = await tf.loadLayersModel("https://raw.githubusercontent.com/danielpaz6/flappy-birds-dqn/master/my-model-e3.json");
-	var m2 = await tf.loadLayersModel("https://raw.githubusercontent.com/danielpaz6/flappy-birds-dqn/master/my-model-e3.json");
+	var m1 = await tf.loadLayersModel("https://raw.githubusercontent.com/danielpaz6/Flappy-Birds-DQN/master/my-model-e3.json");
+	var m2 = await tf.loadLayersModel("https://raw.githubusercontent.com/danielpaz6/Flappy-Birds-DQN/master/my-model-e3.json");
 
 	m1.compile({
 		loss: "meanSquaredError",

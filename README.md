@@ -6,7 +6,7 @@ A flappy bird game that learns to play by itself using Deep Q Learning and JavaS
 </p>
 
 ### Live demo
-You can click [here](https://danielpaz6.github.io/flappy-birds-dqn/) for live demo.
+You can click [here](https://danielpaz6.github.io/Flappy-Birds-DQN/) for live demo.
 
 ### Overview
 This project follows the description of the Deep Q Learning algorithm described in [Playing Atari with Deep Reinforcement Learning](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf) and shows that this learning algorithm can be further generalized to the notorious Flappy Bird.
@@ -17,10 +17,10 @@ Moreover, in order to optimize it even more, I used DDQN architecture.
 Clone and install dependecies
 
 ```
-git clone https://github.com/danielpaz6/flappy-birds-dqn.git
-cd flappy-birds-dqn
+git clone https://github.com/danielpaz6/Flappy-Birds-DQN.git
+cd Flappy-Birds-DQN
 npm install
-npm start
+npx webpack
 ```
 
 ### Disclaimer and further more information
