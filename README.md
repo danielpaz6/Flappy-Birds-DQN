@@ -1,6 +1,5 @@
 # Flapy Birds A.I.
-A flappy bird game that learns to play by itself using Deep Q Learning and JavaScript,
-using exciting technologies such as Tensorflow.js, D3 and Webpack.
+A flappy bird game that learns to play by itself using Deep Q Learning and JavaScript and exciting technologies such as Tensorflow.js, D3 and Webpack.
 
 <p align="center">
   <img src="demo.gif" width="820" alt="Demo of DQN AI Flappy Bird" />
