@@ -6,7 +6,7 @@
   "dependencies": {
     "@tensorflow/tfjs": "^2.0.1",
     "d3": "^5.16.0",
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "webpack": "^4.43.0",
